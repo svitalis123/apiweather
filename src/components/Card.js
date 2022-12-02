@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { FaSnowflake } from "react-icons/fa";
 import { WiDaySunny } from "react-icons/wi";
 
-const Card = () => {
+const Card = ({ celsius, setCelsius }) => {
     const [input, setInput] = useState('');
-    const [celsius, setCelsius] = useState(30);
-
     const styles = {
         color: celsius > 21 ? "red" : "green"
     }
