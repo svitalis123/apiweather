@@ -1,0 +1,97 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .BsFillGridFillContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232325;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .BsFillGridFill {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .BsBellFillContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232325;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .BsBellFill {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .locationContainer {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .locationIcon {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .boldAccent {
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .searchBarContainer {
+    display: flex;
+    background-color: #232325;
+    padding: 1rem;
+    border-radius: 30px;
+  
+    width: 400px;
+    align-items: center;
+    max-height: 50px;
+    flex-direction: row;
+    margin-left: 2rem;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .searchIcon {
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  

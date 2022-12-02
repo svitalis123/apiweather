@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #101014;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  margin-top: 5rem;
+  padding: 1rem;
+  width: 30%;
+  height: 450px;
+  background-color: #adc8db;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.card-header {
+  color: #101014;
+  width: 85%;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.card-display {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.card-input {
+  text-align: center;
+  gap: 1rem;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 85%;
+}
+
+.input-card {
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card-btn {
+  border-radius: 1rem;
+  margin-left: 4rem;
+  color: #fff;
+  background-color: #222125;
+  width: 60%;
+  border: none;
+  padding: 1rem;
+}
