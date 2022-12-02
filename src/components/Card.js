@@ -19,7 +19,7 @@ return (
     <div className="card-container">
         <div className="card-header flex">
             <h3>Monday</h3>
-            <span>12:00pm</span>
+            <span>{Date().slice(16, 21)}</span>
         </div>
         <div className="card-display">
             <p><span style={styles}>{celsius}°C</span>

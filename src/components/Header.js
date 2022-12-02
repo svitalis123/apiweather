@@ -17,6 +17,7 @@ const Header = ({ setCelsius }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+   
     const options = {
       method: 'GET',
       headers: {
@@ -36,7 +37,7 @@ const Header = ({ setCelsius }) => {
         setResult(obj);
       })
       .catch(err => console.error(err));
-    setSearch('')
+      setSearch(' ')
   }
   useEffect(() => {
     setCelsius(result.temp)
@@ -59,7 +60,7 @@ const Header = ({ setCelsius }) => {
       <div className="searchBarContainer">
         <form className="form" onSubmit={handleSubmit}>
           <BiSearchAlt2 className="searchIcon" />
-          <input className="input" onChange={(e) => setSearch(e.target.value)} placeholder={'Search City...'} />
+          <input className="input" value={search} onChange={(e) => setSearch(e.target.value)} placeholder={'Search City...'} />
         </form>
       </div>
     </div>
